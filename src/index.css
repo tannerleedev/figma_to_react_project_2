@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@import './assets/fonts/fontawesome/css/all.css';
+
+/* MacPaw Fixel */
+/* fixel-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./assets/fonts/Fixel/FixelText-Thin.woff2') format('woff2');
+}
+/* fixel-200 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./assets/fonts/Fixel/FixelText-ExtraLight.woff2') format('woff2');
+}
+/* fixel-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./assets/fonts/Fixel/FixelText-Light.woff2') format('woff2');
+}
+/* fixel-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Fixel/FixelText-Regular.woff2') format('woff2');
+}
+/* fixel-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Fixel/FixelText-Medium.woff2') format('woff2');
+}
+/* fixel-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/Fixel/FixelText-SemiBold.woff2') format('woff2');
+}
+/* fixel-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Fixel/FixelText-Bold.woff2') format('woff2');
+}
+/* fixel-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/fonts/Fixel/FixelText-ExtraBold.woff2') format('woff2');
+}
+/* fixel-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Fixel';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./assets/fonts/Fixel/FixelText-Black.woff2') format('woff2');
+}
+
+
+@theme {
+  --font-fixel: Fixel, sans-serif;
+
+  --color-neutral-0: oklch(1.000 0.000 89.9);
+  --color-neutral-100: oklch(0.954 0.002 145.6);
+  --color-neutral-200: oklch(0.910 0.006 128.5);
+  --color-neutral-300: oklch(0.819 0.009 134.9);
+  --color-neutral-400: oklch(0.724 0.016 132.5);
+  --color-neutral-500: oklch(0.627 0.020 135.0);
+  --color-neutral-600: oklch(0.519 0.017 132.6);
+  --color-neutral-700: oklch(0.446 0.014 133.5);
+  --color-neutral-800: oklch(0.366 0.011 135.0);
+  --color-neutral-900: oklch(0.285 0.008 137.8);
+  --color-neutral-950: oklch(0.194 0.004 128.7);
+
+  --color-neutral-d-0: oklch(0.162 0.004 128.8);
+  --color-neutral-d-100: oklch(0.185 0.004 128.7);
+  --color-neutral-d-200: oklch(0.241 0.006 121.9);
+  --color-neutral-d-300: oklch(0.285 0.008 137.8);
+  --color-neutral-d-400: oklch(0.366 0.011 135.0);
+  --color-neutral-d-500: oklch(0.446 0.014 133.5);
+  --color-neutral-d-600: oklch(0.519 0.017 132.6);
+  --color-neutral-d-700: oklch(0.627 0.020 135.0);
+  --color-neutral-d-800: oklch(0.724 0.016 132.5);
+  --color-neutral-d-900: oklch(0.724 0.016 132.5);
+  --color-neutral-d-950: oklch(0.910 0.006 128.5);
+
+  --color-primary: oklch(0.499 0.125 138.6);
+  --color-primary-100: oklch(0.959 0.027 136.9);
+  --color-primary-200: oklch(0.918 0.055 137.0);
+  --color-primary-300: oklch(0.839 0.112 138.1);
+  --color-primary-400: oklch(0.763 0.164 138.2);
+  --color-primary-500: oklch(0.658 0.170 138.7);
+  --color-primary-600: oklch(0.499 0.125 138.6);
+  --color-primary-700: oklch(0.427 0.105 138.6);
+  --color-primary-800: oklch(0.353 0.083 138.4);
+  --color-primary-900: oklch(0.273 0.060 138.3);
+  --color-primary-950: oklch(0.189 0.033 137.6);
+
+  --color-primary-d-0: oklch(0.427 0.105 138.6);
+  --color-primary-d-100: oklch(0.144 0.023 136.4);
+  --color-primary-d-200: oklch(0.189 0.033 137.6);
+  --color-primary-d-300: oklch(0.189 0.033 137.6);
+  --color-primary-d-400: oklch(0.353 0.083 138.4);
+  --color-primary-d-500: oklch(0.427 0.105 138.6);
+  --color-primary-d-600: oklch(0.499 0.125 138.6);
+  --color-primary-d-700: oklch(0.658 0.170 138.7);
+  --color-primary-d-800: oklch(0.763 0.164 138.2);
+  --color-primary-d-900: oklch(0.839 0.112 138.1);
+  --color-primary-d-950: oklch(0.918 0.055 137.0);
+
+  --breakpoint-sm: 50rem;
+  --breakpoint-md: 60rem;
+  --breakpoint-lg: 75rem;
+  --breakpoint-xl: 90rem;
+  --breakpoint-2xl: 96rem;
+/* 
+  --container-3xs: 16rem;
+  --container-2xs: 18rem;
+  --container-xs: 20rem;
+  --container-sm: 24rem;
+  --container-md: 28rem;
+  --container-lg: 32rem;
+  --container-xl: 36rem;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-6xl: 72rem;
+  --container-7xl: 80rem; */
+}
+
+@theme {
+  --animate-logo-carousel: logo-carousel 20s linear infinite;
+
+  @keyframes logo-carousel {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
