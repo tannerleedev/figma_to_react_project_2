@@ -1,8 +1,9 @@
+import HeaderSection from "./components/partials/HeaderSection"
 
 function App() {
   return (
-    <div>
-      <h1>Crypto Punks</h1>
+    <div className="font-fixel bg-zinc-900 text-white">
+      <HeaderSection />
     </div>
   )
 }
