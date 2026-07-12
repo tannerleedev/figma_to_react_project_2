@@ -5,6 +5,7 @@ import HeroSection from "./components/partials/HeroSection"
 import LatestSalesSection from "./components/partials/LatestSalesSection"
 import MeetThePunksSection from "./components/partials/MeetThePunksSection"
 import NFTsCarouselSection from "./components/partials/NFTsCarouselSection"
+import RecentTransactionsSection from "./components/partials/RecentTransactionsSection"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </BlackContainer>
 
       <LatestSalesSection />
+      <RecentTransactionsSection />
     </div>
   )
 }
