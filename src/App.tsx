@@ -1,4 +1,5 @@
 import BlackContainer from "./components/containers/BlackContainer"
+import FAQSection from "./components/partials/FAQSection"
 import FeaturesSection from "./components/partials/FeaturesSection"
 import HeaderSection from "./components/partials/HeaderSection"
 import HeroSection from "./components/partials/HeroSection"
@@ -24,6 +25,7 @@ function App() {
 
       <BlackContainer curvePosition="top">
         <HowSection />
+        <FAQSection />
       </BlackContainer>
     </div>
   )
