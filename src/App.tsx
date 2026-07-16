@@ -1,6 +1,7 @@
 import BlackContainer from "./components/containers/BlackContainer"
 import FAQSection from "./components/partials/FAQSection"
 import FeaturesSection from "./components/partials/FeaturesSection"
+import FooterSection from "./components/partials/FooterSection"
 import HeaderSection from "./components/partials/HeaderSection"
 import HeroSection from "./components/partials/HeroSection"
 import HowSection from "./components/partials/HowSection"
@@ -26,6 +27,7 @@ function App() {
       <BlackContainer curvePosition="top">
         <HowSection />
         <FAQSection />
+        <FooterSection />
       </BlackContainer>
     </div>
   )
